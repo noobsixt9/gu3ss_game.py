@@ -3,7 +3,7 @@ import math
 lower=int(input("Enter lower nunber: "))
 upper=int(input("Enter higher number: "))
 x=random.randint(lower,upper)
-print("\n\t You have only", round(math.log(upper-lower+1,2)),"chances to gues>
+print("\n\t You have only", round(math.log(upper-lower+1,2)),"chances to gues")
 count=0
 while count<math.log(upper-lower+1,2):
  count += 1
